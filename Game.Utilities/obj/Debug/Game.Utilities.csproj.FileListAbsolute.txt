@@ -1,0 +1,14 @@
+G:\Projelerim\GamePlatforms\Game\Game.Utilities\bin\Debug\Game.Utilities.dll
+G:\Projelerim\GamePlatforms\Game\Game.Utilities\bin\Debug\Game.Utilities.pdb
+G:\Projelerim\GamePlatforms\Game\Game.Utilities\obj\Debug\Game.Utilities.dll
+G:\Projelerim\GamePlatforms\Game\Game.Utilities\obj\Debug\Game.Utilities.pdb
+D:\GameSVN\Game.Utilities\bin\Debug\Game.Utilities.dll
+D:\GameSVN\Game.Utilities\bin\Debug\Game.Utilities.pdb
+D:\GameSVN\Game.Utilities\obj\Debug\Game.Utilities.csprojResolveAssemblyReference.cache
+D:\GameSVN\Game.Utilities\obj\Debug\Game.Utilities.dll
+D:\GameSVN\Game.Utilities\obj\Debug\Game.Utilities.pdb
+G:\GameSvnOyun\Game.Utilities\bin\Debug\Game.Utilities.dll
+G:\GameSvnOyun\Game.Utilities\bin\Debug\Game.Utilities.pdb
+G:\GameSvnOyun\Game.Utilities\obj\Debug\Game.Utilities.csprojResolveAssemblyReference.cache
+G:\GameSvnOyun\Game.Utilities\obj\Debug\Game.Utilities.dll
+G:\GameSvnOyun\Game.Utilities\obj\Debug\Game.Utilities.pdb

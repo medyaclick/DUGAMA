@@ -1,0 +1,15 @@
+G:\Projelerim\GamePlatforms\Game\Game.Domain\bin\Debug\Game.Domain.dll
+G:\Projelerim\GamePlatforms\Game\Game.Domain\bin\Debug\Game.Domain.pdb
+G:\Projelerim\GamePlatforms\Game\Game.Domain\obj\Debug\Game.Domain.csprojResolveAssemblyReference.cache
+G:\Projelerim\GamePlatforms\Game\Game.Domain\obj\Debug\Game.Domain.dll
+G:\Projelerim\GamePlatforms\Game\Game.Domain\obj\Debug\Game.Domain.pdb
+D:\GameSVN\Game.Domain\bin\Debug\Game.Domain.dll
+D:\GameSVN\Game.Domain\bin\Debug\Game.Domain.pdb
+D:\GameSVN\Game.Domain\obj\Debug\Game.Domain.csprojResolveAssemblyReference.cache
+D:\GameSVN\Game.Domain\obj\Debug\Game.Domain.dll
+D:\GameSVN\Game.Domain\obj\Debug\Game.Domain.pdb
+G:\GameSvnOyun\Game.Domain\bin\Debug\Game.Domain.dll
+G:\GameSvnOyun\Game.Domain\bin\Debug\Game.Domain.pdb
+G:\GameSvnOyun\Game.Domain\obj\Debug\Game.Domain.csprojResolveAssemblyReference.cache
+G:\GameSvnOyun\Game.Domain\obj\Debug\Game.Domain.dll
+G:\GameSvnOyun\Game.Domain\obj\Debug\Game.Domain.pdb

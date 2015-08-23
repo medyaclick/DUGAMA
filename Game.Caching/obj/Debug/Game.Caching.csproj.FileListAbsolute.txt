@@ -1,0 +1,15 @@
+G:\Projelerim\GamePlatforms\Game\Game.Caching\bin\Debug\Game.Caching.dll
+G:\Projelerim\GamePlatforms\Game\Game.Caching\bin\Debug\Game.Caching.pdb
+G:\Projelerim\GamePlatforms\Game\Game.Caching\obj\Debug\Game.Caching.dll
+G:\Projelerim\GamePlatforms\Game\Game.Caching\obj\Debug\Game.Caching.pdb
+G:\Projelerim\GamePlatforms\Game\Game.Caching\obj\Debug\Game.Caching.csprojResolveAssemblyReference.cache
+D:\GameSVN\Game.Caching\bin\Debug\Game.Caching.dll
+D:\GameSVN\Game.Caching\bin\Debug\Game.Caching.pdb
+D:\GameSVN\Game.Caching\obj\Debug\Game.Caching.csprojResolveAssemblyReference.cache
+D:\GameSVN\Game.Caching\obj\Debug\Game.Caching.dll
+D:\GameSVN\Game.Caching\obj\Debug\Game.Caching.pdb
+G:\GameSvnOyun\Game.Caching\bin\Debug\Game.Caching.dll
+G:\GameSvnOyun\Game.Caching\bin\Debug\Game.Caching.pdb
+G:\GameSvnOyun\Game.Caching\obj\Debug\Game.Caching.csprojResolveAssemblyReference.cache
+G:\GameSvnOyun\Game.Caching\obj\Debug\Game.Caching.dll
+G:\GameSvnOyun\Game.Caching\obj\Debug\Game.Caching.pdb

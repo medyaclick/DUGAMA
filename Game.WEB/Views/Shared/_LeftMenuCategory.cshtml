@@ -1,0 +1,13 @@
+﻿<div class="left">
+    <div class="populer-menu">
+        <div class="big-title">
+            <span class="mod-title">Kategoriler</span>
+        </div>
+    </div>
+    <div class="menu">
+        @foreach (var item in new Game.BUS.CategoryOperations().Get(60))
+        {
+            <div class="items"><img src="@item.ImageUrl"><a href="@Url.Action("Index", "Category", new { id = item.Url })">@item.Name</a></div>
+        }
+    </div>
+</div>

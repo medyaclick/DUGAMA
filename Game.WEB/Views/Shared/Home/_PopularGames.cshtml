@@ -1,0 +1,42 @@
+﻿@{
+    var popularGames = Game.BUS.GameOperations.Initilize().GetPopularGames(60, 9);
+}
+
+<div class="down">
+    <div class="populer-menu">
+        <div class="big-title">
+            <span class="mod-title">POPULER OYUNLAR</span>
+        </div>
+        <ul class="sort loader pages">
+            <li class="active">
+                <a>Tümü</a>
+            </li>
+            <li>
+                <a>Çok Oyunculu Oyunlar</a>
+            </li>
+            <li>
+                <a>Online Oyunlar</a>
+            </li>
+            <li>
+                <a>3D Oyunlar</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <ul class="featured-list">
+            @foreach (var item in popularGames)
+            {
+                <li>
+                    <a href="@Url.Action("Play", "Game", new { id = item.Url })">
+                        <img src="@item.ImageUrl" alt="@item.Name">
+                        @item.Name
+                    </a>
+                    <small>Zeka Oyunları</small>
+                    <span class="review">
+                        <span class="star"><span style="width:@item.Point%;"></span></span>
+                    </span>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

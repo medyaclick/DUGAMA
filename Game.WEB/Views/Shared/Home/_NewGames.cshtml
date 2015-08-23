@@ -1,0 +1,32 @@
+﻿@{
+    var newGames = Game.BUS.GameOperations.Initilize().GetNewGames(60, 75);
+    int pages = (newGames.Count / 15) + 1;
+}
+
+<div class="up">
+    <div class="leftin full">
+        <div class="populer-menu">
+            <div class="big-title">
+                <h2 class="mod-title">Yeni Oyunlar</h2>
+            </div>
+            @if (pages > 1)
+            {
+                <ul class="sort loader pages">
+                    @for (int i = 1; i <= pages; i++)
+                    {
+                        <li><a>@i</a></li>
+                    }
+                    <li class="active"><a>Tümü</a></li>
+                </ul>
+            }
+        </div>
+        <div class="new-games">
+            @foreach (var item in newGames)
+            {
+                <a href="@Url.Action("Play", "Game", new { id = item.Url })">
+                    <img src="@item.ImageUrl" alt="@item.Name"><span>3D Araba Gezisi</span>
+                </a>
+            }
+        </div>
+    </div>
+</div>
