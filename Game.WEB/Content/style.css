@@ -49,6 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .mainNavigation ul li:first-child{width: 200px;}
 
+.mainNavigation ul li:last-child {
+    float:right;
+}
 .mainNavigation ul li {
     float: left;
     list-style: none outside none;
@@ -867,7 +870,7 @@ footer {
     margin-left: 10px;
     padding-left: 130px;
     position: relative;
-    width: 120px;
+    width: 115px;
 }
 #main .right .content .featured-list li small {
     color: #999999;
@@ -913,7 +916,7 @@ footer {
     width: 80px;
 }
 #main .right .content .featured-list li .star > span {
-    background-image: url("static/img/sprite.png");
+    background-image: url("../img/sprite.png");
     background-position: 0 -394px;
     background-repeat: no-repeat;
     display: block;
@@ -937,11 +940,17 @@ footer {
 .intro-text {
 }
 
+#game .game-title{
+float:left;
+width:%100;
+margin:20px 0 0 0;
+}
+
 
 #game .left{
     display: block;
     float: left;
-    margin: 0 0 20px;
+    margin: 0 0 10px;
     max-width: 770px;
     position: relative;
 }
@@ -1163,11 +1172,29 @@ float:right;
 #game .detail-content{
     display: inline-block;
     width: 100%;
-    margin-bottom: 20px;
-    padding-bottom: 32px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 
 }
 
+#game .detail-content .keywords{
+    display: inline-block;
+    width: 100%;
+    margin:5px  0px ; 
+
+}
+
+#game .detail-content .review{
+    display: inline-block;
+    width: 100%;
+    margin: 5px  0px ; 
+}
+
+#game .detail-content .count{
+    display: inline-block;
+    width: 100%;
+    margin: 5px  0px ; 
+}
 
 
 .content-head{
@@ -1180,6 +1207,33 @@ border-radius: 5px;
 display: inline-block;
 box-sizing: border-box;
 }
+
+.video-head{
+width: 100%;
+border: 1px solid #F3C15F;
+background-color: #ffcb65;
+height: auto;
+color:#fff;
+border-radius: 5px;
+display: inline-block;
+box-sizing: border-box;
+}
+
+.video-head h3{padding: 10px; margin:0;
+color:#fff;
+float: left;}
+
+.videclr{
+
+    border: 1px solid #4268B1;
+    background-color: #5C8AE4;
+}
+
+.videobrdr{
+
+    border: 1px solid #4268B1 !important;
+}
+
 
 .explanation{
  padding:10px;
@@ -1198,10 +1252,25 @@ text-align:left;}
 color:#fff;
 float: left;}
 
+#game .detail-info{
+float:left;
+width:100%;
+}
+
+#game .detail-info img{
+float:left;
+margin: 10px 10px 30px 10px;
+background: none repeat scroll 0 0 #fff;
+border-radius: 3px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.29);
+}
+
 
 
 #game .detail-buttons{
+    margin: 10px 0;
  
+    float: left;
 }
 
 
@@ -1236,14 +1305,49 @@ height:35px;
 width: auto;
 float: left;
 
-width: 206px;
+width: 205px;
+border: 1px solid #2B7910;
+border-style: box-sizing;
 }
 #game .detail-buttons .link:hover{background-color:#79cb5d;}
 
 
 
+#game .detail-buttons .game{
+background-color: rgb(232, 81, 84);
+color: #fff;
+text-align: center;
+padding:0px 10px;
+line-height:35px;
+height:35px; 
+width: auto;
+float: left;
+
+width: 205px;
+border: 1px solid #2B7910;
+border-style: box-sizing;
+}
+#game .detail-buttons .game:hover{background-color:rgb(245, 142, 144);}
 
 
+
+#game .detail-buttons .comment{
+background-color: rgb(255, 203, 101);
+color: #fff;
+text-align: center;
+padding:0px 10px;
+line-height:35px;
+height:35px; 
+width: auto;
+float: left;
+
+width: 205px;
+border: 1px solid #2B7910;
+border-style: box-sizing;
+}
+#game .detail-buttons .comment:hover{background-color:rgb(255, 221, 153);}
+
+ 
 
 
 
@@ -1401,11 +1505,14 @@ float: left;
 }
 
 .detail-page .form {
-margin-top: 20px;
+margin-top: 0px;
+margin-bottom: 15px;
+float: left;
+width: 100%;
 }
 
 .detail-page .form > .form-row {
-margin-bottom: 10px;
+margin-bottom: 11px;
 display: block;
 width: 100%;
 }
@@ -1448,7 +1555,7 @@ float: right;
 
 .detail-page .form > .form-row > .button-wrapper.cm-submit > input {
 display:block;
-width: 100%;
+width: 90%;
 border: 1px solid #e1e1e1;
 background: #ffcb65;
 border-radius: 5px;
@@ -1462,7 +1569,7 @@ cursor: pointer;
 .detail-page .comment-list {
 display: inline-block;
 width: 100%;
-margin: 50px 0 0 0;
+margin: 0px 0 0 0;
 padding: 0;
 }
 
@@ -1586,54 +1693,14 @@ font-weight:normal !important;
 }
 .has-scrollbar .scrollContent::-webkit-scrollbar {
   visibility: visible;
-}
-.nano > .pane {
-  background: rgba(0, 0, 0, 0.1);
-  position: absolute;
-  width: 7px;
-  right: 2px;
-  top: 2px;
-  bottom: 2px;
-  visibility: hidden\9;
-  /* Target only IE7 and IE8 with this hack */
-  opacity: 1;
-  filter: alpha(opacity=0);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=82);
-  -webkit-transition: all 0.1s;
-  -moz-transition: all 0.1s;
-  -o-transition: all 0.1s;
-  transition: all 0.1s;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-.nano > .pane > .slider {
-  background: #444;
-  background: rgba(0, 0, 0, 0.3);
-  position: relative;
-  margin: 0 0;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
-.nano:hover > .pane,
-.pane.active,
-.pane.flashed {
-  visibility: visible\9;
-  /* Target only IE7 and IE8 with this hack */
-  opacity: 1;
-  filter: alpha(opacity=100);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=82);
-}
-	
-	
+} 
 	
 
-.hreview-aggregate { float: left; margin-top: 5px;}
-.hreview-aggregate .item { display: none; }
+.hreview-aggregate { float: right; margin-top: 15px;}
+.hreview-aggregate .item { display: none; float: right;}
 .hreview-aggregate .note { font-size: 14px; color: #888; margin: 0 10px 0 5px; line-height: 32px; font-weight: bold;}
 .hreview-aggregate .rating { font-size: 0.9em; float: left; display: block; margin: -1px 0 0 6px; font-weight: bold; }
-.hreview-aggregate .good, .hreview-aggregate .g { color: #fff; background-color: #3F8F2C; -webkit-border-radius: 3px; border-radius: 3px; border: 1px solid #00690C; padding: 7px 8px; font-size: 15px;}
+.hreview-aggregate .good, .hreview-aggregate .g { color: #fff; background-color: #3F8F2C; -webkit-border-radius: 3px; border-radius: 3px; border: 1px solid #00690C; padding: 7px 8px; font-size: 15px; float: right;}
 .hreview-aggregate .bad, .hreview-aggregate .b { color: #fff; background-color: #AF3B3B; -webkit-border-radius: 3px; border-radius: 3px; border: 1px solid #790D0D; padding: 0 6px; }
 	
 	
