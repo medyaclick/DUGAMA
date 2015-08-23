@@ -12,6 +12,7 @@ namespace Game.WEB.Controllers
         public ActionResult Index()
         {
             Response.Write("fitsr");
+            Response.Write("dgdfg");
             return View();
         }
         public ActionResult Play(string id)
